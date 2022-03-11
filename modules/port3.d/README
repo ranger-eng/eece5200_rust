@@ -1,0 +1,9 @@
+2020 compile with gfortran -std=legacy
+
+	makefile: for port3 lib.
+	type
+		make
+src.d
+	source directory
+examples.d
+	SOURCE EXAMPLES IN FORTRAN

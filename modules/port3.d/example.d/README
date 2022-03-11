@@ -1,0 +1,3 @@
+test prgms for port3:
+
+compile: g77 fn.f ../src.d/libport3.a
