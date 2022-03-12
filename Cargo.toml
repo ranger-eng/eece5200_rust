@@ -2,7 +2,7 @@
 name = "eece5200_rust"
 version = "0.1.0"
 edition = "2021"
-build = "build.rs"
+#build = "build.rs"
 links = "gfortran"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -11,3 +11,6 @@ links = "gfortran"
 
 [build-dependencies]
 cmake = "0.1"
+ndarray = "0.12.1"
+ndarray-linalg = "0.12.1"
+rand = "0.8.5"

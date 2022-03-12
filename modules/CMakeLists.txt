@@ -169,6 +169,6 @@ add_library(port3 STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/port3.d/src.d/GESS.d/GELU.f
     ${CMAKE_CURRENT_SOURCE_DIR}/port3.d/src.d/GESS.d/GESS.f
     ${CMAKE_CURRENT_SOURCE_DIR}/port3.d/src.d/util.d/CDDIV.f
+    ${CMAKE_CURRENT_SOURCE_DIR}/M_Utils.c
     )
-target_link_libraries(port3 PRIVATE gfortran)
 install(TARGETS port3 DESTINATION ${CMAKE_INSTALL_PREFIX})
