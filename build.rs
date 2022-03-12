@@ -1,6 +1,5 @@
 use cmake;
 
-
 fn main() {
     let dst = cmake::build("./modules");
     println!("cargo:rustc-link-search=native={}", dst.display());

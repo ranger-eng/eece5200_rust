@@ -1,5 +1,4 @@
 pub mod port3;
-use rand::Rng;
 
 fn main() {
     // Init
@@ -33,10 +32,6 @@ fn main() {
     let B: Vec<f32> = vec![24.0,-19.0];
     let a_n: i32 = 2;
     let b_m: i32 = 1;
-    unsafe {
-        port3::GESS();
-    }
-    port3::gess(A, B, a_n, b_m);
     
     println!("{:?}",y_hat_array);
 }
