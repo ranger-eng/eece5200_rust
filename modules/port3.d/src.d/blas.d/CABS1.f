@@ -1,5 +1,0 @@
-       REAL FUNCTION CABS1(X)
-       COMPLEX X
-       CABS1=ABS(REAL(X))+ABS(AIMAG(X))
-       RETURN
-       END
